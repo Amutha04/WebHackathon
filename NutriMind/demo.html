@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutri Mind | Dashboard</title>
+    <link rel="icon" href="assests/logo.png">
+    <link rel="html" href="login.html">
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="assests/logo.png" />
+            <h2>
+              Nutri
+              <span class="danger" style="color: var(--color-primary)" >Mind</span>
+            </h2>
+          </div>
+
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp"> close </span>
+          </div>
+        </div>
+        <div class="slidebar">
+          <a href="home.html">
+            <span class="material-icons-sharp">home</span>
+            <h3>Home</h3>
+          </a>
+          <a href="#" class="active">
+            <span class="material-icons-sharp">insights</span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">menu_book</span>
+            <h3>Journal</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">groups</span>
+            <h3>Discussion <span class="diss-count">17</span></h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">shopping_bag</span>
+            <h3>Products</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">report_gmailerrorred</span>
+            <h3>Reports</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">settings</span>
+            <h3>Settings</h3>
+          </a>
+          <a href="login.html ">
+            <span class="material-icons-sharp">logout</span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+
+
+
+      <main>
+        <h1>Dashboard</h1>
+
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <!--Calorie Chart-->
+          <div class="calories">
+            <span class="material-icons-sharp">analytics</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Calories</h3>
+                <h1>725 kcal</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!--Calorie Chart-->
+          <!--Protein Chart-->
+          <div class="protein">
+            <span class="material-icons-sharp">bar_chart</span>
+            <div class="middle">
+              <div class="lef">
+                <h3>Total Proteins</h3>
+                <h1>678 gms</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>62%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+
+          <!--Protein Chart-->
+          <!--Grain Chart-->
+          <div class="grains">
+            <span class="material-icons-sharp">stacked_line_chart</span>
+            <div class="middle">
+              <div class="lef">
+                <h3>Total Grains</h3>
+                <h1>441 gms</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>45%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!--Grain chart-->
+        </div>
+        <!--food nutrition table-->
+        <div class="recent-order">
+          <h2>Nutrition Table</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Food</th>
+                <th>Serving Size</th>
+                <th>Calories</th>
+                <th>Fiber</th>
+                <th>Sugars</th>
+                <th>Protein</th>
+                <th>Key Vitamins & Minerals</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Almonds</td>
+                <td>1 oz (28g)</td>
+                <td>160</td>
+
+                <td>3.5g</td>
+                <td>1g</td>
+                <td>6g</td>
+                <td>Vitamin E, Magnesium, Calcium</td>
+              </tr>
+             
+              <tr>
+                <td>Broccoli</td>
+                <td>1 cup (91g)</td>
+                <td>55</td>
+
+                <td>2.4g</td>
+                <td>2.2g</td>
+                <td>3.7g</td>
+                <td>Vitamin C, Vitamin K, Potassium, Folate</td>
+              </tr>
+              <tr>
+                <td>Eggs</td>
+                <td>1 large (50g)</td>
+                <td>72</td>
+
+                <td>0g</td>
+                <td>0.6g</td>
+                <td>6g</td>
+                <td>Vitamin B12, Vitamin D, Selenium, Choline</td>
+              </tr>
+              <tr>
+                <td>Oats</td>
+                <td>1/2 cup (40g)</td>
+                <td>154</td>
+
+                <td>4g</td>
+                <td>1g</td>
+                <td>5g</td>
+                <td>Manganese, Phosphorus, Magnesium, Iron</td>
+              </tr>
+              <tr>
+                <td>Oranges></td>
+                <td>1 medium (131g)</td>
+                <td>62</td>
+
+                <td>3g</td>
+                <td>12g</td>
+                <td>1.2g</td>
+                <td>Vitamin C, Fiber, Potassium, Folate</td>
+              </tr>
+              <tr>
+                <td>Brown Rice</td>
+                <td>1 cup (195g)</td>
+                <td>216</td>
+
+                <td>3.5g</td>
+                <td>0.7g</td>
+                <td>5g</td>
+                <td>Manganese, Magnesium, Selenium, Phosphorus</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+      </main>
+
+      <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+            </button>
+
+            <div class="theme-toggler">
+                <span class="material-icons-sharp active">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>
+            </div>
+            <div class="profile">
+                 <div class="info">
+                    <p>Hey, <b>Franklin</b></p>
+                    <small class="text-muted">Admin</small>
+                 </div>
+                 <div class="profile-photo">
+                    <img src="assests/fra.jpg" alt="">
+                 </div>
+                
+            </div>
+        </div>
+
+        <div class="recent-updates">
+            <h2>Chat with Nutritionists</h2>
+            <div class="updates">
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="assests/new1.jpg">
+                    </div>
+                    <div class="msg"><p><b>You  </b> Yes Dr. Good health enables individuals to live a fulfilling life, manage stress effectively, and participate actively in their communities.</p>
+                        <small class="text-muted">Just now</small></div>
+                    
+                </div>
+        
+        <div class="update">
+            <div class="profile-photo">
+                <img src="assests/new1.jpg" alt="">
+            </div>
+            <div class="msg"><p><b>Thomas  </b>Good morning! Balanced Diet helps to maintain our body.</p>
+            <small class="text-muted">5 hours ago</small></div>
+        </div>
+
+        <div class="update">
+            <div class="profile-photo">
+                <img src="assests/new1.jpg" alt="">
+            </div>
+            <div class="msg"><p><b>Angelina  </b>Do you follow the exercise we discuss?</p>
+            <small class="text-muted">13 hours ago</small></div>
+        </div>
+
+        <div class="update">
+            <div class="profile-photo">
+                <img src="assests/new1.jpg" alt="">
+            </div>
+            <div class="msg"><p><b>James Hardvik  </b>Do you want any help?</p>
+            <small class="text-muted">4 days ago</small></div>
+        </div>
+
+        <div class="update">
+            <div class="profile-photo">
+                <img src="assests/new1.jpg" alt="">
+            </div>
+            <div class="msg"><p><b>You  </b>Yeah, Thank you!</p>
+            <small class="text-muted">2 weeks ago</small></div>
+        </div>
+
+
+    
+</div>
+   <a href="#" class="suggestions">Show All</a>
+
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
